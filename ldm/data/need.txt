@@ -1,0 +1,1 @@
+把 "/home/hcg/bysj_param_dataset/ldm/data"移动进来
