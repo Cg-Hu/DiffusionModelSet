@@ -24,13 +24,13 @@ various dm model, learning it by the technique.
 
 ## 第一阶段设计如下
 * Logo图像生成的整体算法流程图
-![Alt text](image.png)
+![Alt text](docImage/image.png)
 * 本仓库采用的方法模型图
-![Alt text](image-1.png)
+![Alt text](docImage/image-1.png)
   * 其中加入ASPP多尺度模块以及空间通道注意力机制提高第一阶段模型的压缩与特征分布学习能力
 * 自编码器结构
-* ![Alt text](image-2.png)
-* ![Alt text](image-3.png)
+* ![Alt text](docImage/image-2.png)
+* ![Alt text](docImage/image-3.png)
 * 本仓库认为新的网络设计原则有着如下优势：
 * （1）参考VQ-GAN，在自编码器末尾加上Patch Discriminator。该操作提高了模型的学习能力，且只需要另外加几个卷积层，并且该层不会再一开始就参与网络计算，而是待自编码器训练到一定程度时引入该模型，从而避免了自编码初期效果差导致Patch Discriminator得到的损失梯度过大影响整个模型的训练。
 （2）解码器上采样时使用插值和转置卷积两种操作。线性插值和转置卷积组合上采样操作既保证了上采样有效地进行，也在一定程度降低了模型参数（插值层不需要参数）。
