@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T12:46:57.433Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="y_iBKhvctXk83_KFh_QM" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T14:01:59.282Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="a2ZSbBkgHnHpcoJS9LeZ" version="24.1.0" type="github">
   <diagram name="第 1 页" id="D79b67Kzd1kdvQiadQFa">
-    <mxGraphModel dx="1400" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1627" pageHeight="1569" math="0" shadow="0">
+    <mxGraphModel dx="3000" dy="1491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1627" pageHeight="1569" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -269,6 +269,9 @@
         </mxCell>
         <mxCell id="uJpW_YXzgp-RF2SOhqZR-202" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;x 2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1161.5" y="368" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uJpW_YXzgp-RF2SOhqZR-203" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;Skip Connection&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="785" y="670" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
