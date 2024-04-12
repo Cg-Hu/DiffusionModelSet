@@ -39,7 +39,19 @@ various dm model, learning it by the technique.
 
 ## 第二阶段
 CFG+DDIM(Unet)
-TODO
-1. 采用Transformer结构替代Unet
-2. 采用CLIP结构替代纯Transformer结构的文字特征提取头
-3. 对生成的Logo采用“图像中心部分提取算法“，避免无关的部分对Logo造成影响。
+1. 采用Transformer结构替代Unet(ing)
+2. 采用CLIP结构替代纯Transformer结构的文字特征提取头(√)
+3. 对生成的Logo采用“图像中心部分提取算法“，避免无关的部分对Logo造成影响。(√)
+
+* 如下图所示，为第二阶段U-Net的网络架构(ResBlock Attention with cross and cbam)
+  * ![Alt text](docImage/Unet.png)
+* 图像中心提取算法
+  * 取自纯OpenCV的方法（数字图像处理）
+  * <img src="docImage/extract.jpg" style="zoom:40%;" />
+
+* 图像编辑（待做）
+  * AnyText论文
+  * 代码跑通
+  * 复现估计整不了，看看能不能微调，至少不能比直接使用它API差。
+  *  <img src="docImage/anytext.jpg" style="zoom:30%;" />
+
