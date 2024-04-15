@@ -34,7 +34,7 @@ Nor = A.Compose([
     A.Normalize()
 ])
 
-image = cv2.imread("./data/7.jpg")
+image = cv2.imread("./data/27.jpg")
 # image = ImageOps.exif_transpose(image)
 # image = np.array(image)
 # print(f"==>> image.shape: {image.shape}")
